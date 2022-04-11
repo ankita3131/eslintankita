@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-hardcode-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ZmenHu/eslint-plugin-hardcode-string.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ZmenHu/eslint-plugin-hardcode-string/issues"
+  },
+  "homepage": "https://gitlab.com/ZmenHu/eslint-plugin-hardcode-string#readme",
+  "dependencies": {
+    "eslint-plugin-my-eslint-plugin": "file:my-eslint-plugin",
+    "eslint-plugin-regexp": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-json-files": "^0.8.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-regex": "1.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
